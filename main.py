@@ -30,9 +30,29 @@ tuple2 = ("orange",)
 tuple2 += tuple1
 print(tuple2)
 
-# unpack a tuple
+# unpack a tuple, use * to collect the remaining values as a list
 fruits = ("apple", "banana", "cherry", "strawberry", "raspberry")  
 (green, yellow, *red) = fruits
 print(green)
 print(yellow)
 print(red)
+
+
+fruits = ("apple", "mango", "papaya", "pineapple", "cherry")
+
+(green, *tropic, red) = fruits
+
+print(green)
+print(tropic)
+print(red)
+
+print('-----Loop Through the Index Numbers-----')
+# Use the len() function to determine the length of the tuple
+for i in range(len(fruits)):
+    print(i)
+    print(fruits[i])
+    
+i = 0
+while i < len(fruits):
+    print(fruits[i])
+    i = i + 1
