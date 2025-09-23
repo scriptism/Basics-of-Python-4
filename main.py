@@ -63,3 +63,11 @@ tuple2 = (1, 2, 3)
 
 tuple3 = tuple1 + tuple2
 print(tuple3)
+
+print('-----tuple Methods-----')
+# count(), index()
+thistuple = (1, 3, 7, 8, 7, 5, 4, 6, 8, 5)
+x = thistuple.count(5)
+print(f"{5} is repeated = {x} time(s)")
+y = thistuple.index(8)
+print(f"The first occurrence of {8} is at index = {y}")
