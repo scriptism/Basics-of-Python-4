@@ -71,3 +71,27 @@ x = thistuple.count(5)
 print(f"{5} is repeated = {x} time(s)")
 y = thistuple.index(8)
 print(f"The first occurrence of {8} is at index = {y}")
+
+# Sets
+# A set is a collection which is unordered and unindexed. 
+# In Python sets are written with curly brackets.
+# Once a set is created, you cannot change its items, but you can add new items.
+
+my_set = {"apple", "banana", "cherry"}
+for x in my_set:
+  print(x)
+my_set.add("orange")
+my_set.add("orange")
+my_set.add("pear")
+print(my_set)
+
+# To add items from another set into the current set, use the update() method.
+set1 = {"a", "b" , "c"} 
+set2 = {1, 2, 3}
+set1.update(set2)
+print(set1)
+# To remove an item in a set, use the remove(), or the discard() method.
+# The difference between remove() and discard() is that remove() will raise an error if the item to remove does not exist, and discard() will not.
+set1.remove(2)  
+set1.discard(5)
+print(set1)
