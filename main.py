@@ -95,3 +95,14 @@ print(set1)
 set1.remove(2)  
 set1.discard(5)
 print(set1)
+
+print('-----------Dictionary-----')
+# As of Python version 3.7, dictionaries are ordered, not before.
+# A dictionary is a collection which is ordered*, changeable and does not allow duplicates.
+
+thedict = {
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1964
+}
+print(len(thedict))
