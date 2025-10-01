@@ -72,6 +72,13 @@ print(f"{5} is repeated = {x} time(s)")
 y = thistuple.index(8)
 print(f"The first occurrence of {8} is at index = {y}")
 
+# Python Collections (Arrays)
+# There are four collection data types in the Python programming language:
+# List is a collection which is ordered and changeable. Allows duplicate members.
+# Tuple is a collection which is ordered and unchangeable. Allows duplicate members.
+# Set is a collection which is unordered, unchangeable*, and unindexed. No duplicate members.
+# Dictionary is a collection which is ordered** and changeable. No duplicate members.
+
 # Sets
 # A set is a collection which is unordered and unindexed. 
 # In Python sets are written with curly brackets.
@@ -106,3 +113,12 @@ thedict = {
   "year": 1964
 }
 print(len(thedict))
+# String, int, boolean, and list data types:
+thisdict = {
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1964,
+  "is_new": True,
+  "colors": ["red", "white", "blue"]
+}
+print(thisdict)
