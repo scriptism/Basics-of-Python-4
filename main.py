@@ -1,5 +1,9 @@
-# There are 4 built-in data types used to store collections of data, Tuples, List, Set, and Dictionary.
-# A tuple is a collection which is ordered and unchangeable.
+# Python Collections (Arrays)
+# There are four collection data types in the Python programming language:
+# List is a collection which is ordered and changeable. Allows duplicate members.
+# Tuple is a collection which is ordered and unchangeable. Allows duplicate members.
+# Set is a collection which is unordered, unchangeable*, and unindexed. No duplicate members.
+# Dictionary is a collection which is ordered** and changeable. No duplicate members.
 my_tuple = ("apple", "banana", "cherry", "apple", "cherry", 123, True, False, 3.14)
 print(my_tuple)
 print(my_tuple[6])
@@ -71,13 +75,6 @@ x = thistuple.count(5)
 print(f"{5} is repeated = {x} time(s)")
 y = thistuple.index(8)
 print(f"The first occurrence of {8} is at index = {y}")
-
-# Python Collections (Arrays)
-# There are four collection data types in the Python programming language:
-# List is a collection which is ordered and changeable. Allows duplicate members.
-# Tuple is a collection which is ordered and unchangeable. Allows duplicate members.
-# Set is a collection which is unordered, unchangeable*, and unindexed. No duplicate members.
-# Dictionary is a collection which is ordered** and changeable. No duplicate members.
 
 # Sets
 # A set is a collection which is unordered and unindexed. 
