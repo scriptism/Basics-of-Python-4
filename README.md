@@ -1,6 +1,6 @@
 # Scriptism – Lesson 4
 
-A tiny command-line app that demonstrates tuples and what we can to it them.
+A tiny command-line app that demonstrates tuples and some methods.
 
 ## How to run
 
