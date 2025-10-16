@@ -13,6 +13,18 @@ if "apple" in my_tuple:
     print("Yes, 'apple' is in the tuple")   
 print(len(my_tuple))
 
+# tuple methods: count(), index(), len(), min(), max(), sum(), sorted(), del
+# print(len(tuple_example))
+print(tuple_example.count(2))
+print("Hello is at index:", tuple_example.index("Hello"))
+print(min((1, 2, 3, 0, 4, 5)))
+print(max((1, 2, 3, 4, 5)))
+print(sum((1, 2, 3, 4, 5)))
+print(sorted((3, 1, 4, 2, 5)))
+# del tuple_example[0] # This will raise a TypeError
+del tuple_example  # This will delete the entire tuple
+
+
 # To create a tuple with only one item, you have to add a comma after the item, otherwise Python will not recognize it as a tuple.
 thistuple = ("apple",)
 print(thistuple)
